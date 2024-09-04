@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ddtrace-apm-tests"
+version = "0.1.0"
+description = "Just a test repo to verify failures with ddtrace"
+authors = ["Diogo Baeder <diogobaeder@yahoo.com.br>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ddtrace = "^2.11.2"
+datadog = "^0.50.0"
+gunicorn = "^23.0.0"
+gevent = "^24.2.1"
+langchain = "^0.2.16"
+langchain-anthropic = "^0.1.23"
+langchain-google-vertexai = "^1.0.10"
+langchain-openai = "^0.1.23"
+httpx = "^0.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
